@@ -2,7 +2,7 @@
 #include<string>
 
 void main(){
-std::cout<<"enter your name"<<std::endl;//вводим имя
+std::cout<<"enter your name"<<std::endl;//вводим свое имя
 string name;
 std::cout<<std::endl;
 getline(std::cin, name);
