@@ -1,10 +1,10 @@
 #include<iostream>
 #include<string>
-using namespace std;
 
 void main(){
-cout<<"enter your name";
+std::cout<<"enter your name"<<std::endl;//вводим имя
 string name;
-getline(cin, name);
-cout<<"Hello world from "<<name;
+std::cout<<std::endl;
+getline(std::cin, name);
+std::cout<<"Hello world from "<<name;
 }
